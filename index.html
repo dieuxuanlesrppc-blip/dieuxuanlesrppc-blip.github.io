@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nghiên cứu sinh Tiến sĩ | Trồng trọt & Nông học</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 4C16 4 12 8 12 12C12 14.2091 13.7909 16 16 16C18.2091 16 20 14.2091 20 12C20 8 16 4 16 4Z" fill="currentColor"/>
+                    <path d="M16 16V28M16 28L12 24M16 28L20 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="16" cy="26" r="2" fill="currentColor"/>
+                </svg>
+                <span>Lê Thị Diệu Xuân</span>
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Trang chủ</a></li>
+                <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+                <li><a href="#research" class="nav-link">Kinh nghiệm</a></li>
+                <li><a href="#publications" class="nav-link">Dự án</a></li>
+                <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-grain"></div>
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">Chuyên viên | Trung tâm Trồng trọt và BVTV phía Nam</p>
+                <h1 class="hero-title">
+                    <span class="title-line">Lê Thị Diệu Xuân</span>
+                    <span class="title-line">Trồng trọt &</span>
+                    <span class="title-line">Bảo vệ thực vật</span>
+                </h1>
+                <p class="hero-description">
+                    Theo đuổi khoa học, đồng hành cùng nông dân. Chuyên sâu về <strong>Giám sát dự báo sâu bệnh</strong>, 
+                    <strong>Kiểm dịch thực vật</strong> và <strong>Nông nghiệp bền vững</strong>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#research" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M9 2C9 2 6 4.5 6 7C6 8.65685 7.34315 10 9 10C10.6569 10 12 8.65685 12 7C12 4.5 9 2 9 2Z" fill="currentColor"/>
+                            <path d="M9 10V17M9 17L6.5 14.5M9 17L11.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                        Xem kinh nghiệm
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M2 5L8.16086 8.82166C9.18426 9.41018 10.4157 9.41018 11.4391 8.82166L17.6 5M4.5 16H15.5C16.6046 16 17.5 15.1046 17.5 14V6C17.5 4.89543 16.6046 4 15.5 4H4.5C3.39543 4 2.5 4.89543 2.5 6V14C2.5 15.1046 3.39543 16 4.5 16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                        Liên hệ
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <path d="M8 32V24C8 21.7909 9.79086 20 12 20H16C18.2091 20 20 21.7909 20 24V32M20 14V8C20 5.79086 21.7909 4 24 4H28C30.2091 4 32 5.79086 32 8V32M4 32H36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Dự án quốc tế</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M20 10V20L26 23" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Năm kinh nghiệm</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <path d="M12 36V20M20 36V4M28 36V12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <circle cx="12" cy="18" r="2" fill="currentColor"/>
+                            <circle cx="20" cy="2" r="2" fill="currentColor"/>
+                            <circle cx="28" cy="10" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Lĩnh vực chuyên môn</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Cuộn xuống</span>
+            <svg width="16" height="16" viewBox="0 0 16 16">
+                <path d="M8 4V12M8 12L4 8M8 12L12 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Research Focus -->
+    <section id="research-focus" class="section research-focus">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Chuyên môn</span>
+                <h2 class="section-title">Lĩnh vực nghiên cứu</h2>
+            </div>
+            <div class="focus-grid">
+                <div class="focus-card">
+                    <div class="focus-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.2"/>
+                            <circle cx="24" cy="36" r="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 16V20M24 30V32" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="focus-title">Giám sát & Dự báo sâu bệnh</h3>
+                    <p class="focus-description">
+                        Giám sát đồng ruộng, dự báo diễn biến sâu bệnh hại trên cây trồng 
+                        và cảnh báo kịp thời cho người nông dân
+                    </p>
+                </div>
+
+                <div class="focus-card">
+                    <div class="focus-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8" y="12" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 20H40" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="24" cy="28" r="4" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.2"/>
+                            <path d="M20 8L24 12L28 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="focus-title">Nhận diện sâu hại & Thiên địch</h3>
+                    <p class="focus-description">
+                        Nhận diện sâu hại chính, thiên địch, bệnh hại và cỏ dại trên cây trồng, 
+                        hỗ trợ quản lý dịch hại hiệu quả
+                    </p>
+                </div>
+
+                <div class="focus-card">
+                    <div class="focus-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M12 36L24 24L36 36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M18 30L24 24L30 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="24" cy="18" r="4" fill="currentColor" opacity="0.2"/>
+                            <circle cx="24" cy="18" r="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 40H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="focus-title">Kiểm dịch thực vật</h3>
+                    <p class="focus-description">
+                        Phân tích nguy cơ dịch hại, giám định sinh vật gây hại, 
+                        đảm bảo an toàn sinh học trong nhập khẩu nông sản
+                    </p>
+                </div>
+
+                <div class="focus-card">
+                    <div class="focus-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 12C24 12 20 16 20 20C20 22.2091 21.7909 24 24 24C26.2091 24 28 22.2091 28 20C28 16 24 12 24 12Z" fill="currentColor" opacity="0.2"/>
+                            <path d="M24 12C24 12 20 16 20 20C20 22.2091 21.7909 24 24 24C26.2091 24 28 22.2091 28 20C28 16 24 12 24 12Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 24V34" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 34H32M18 38H30M20 42H28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="24" cy="6" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="focus-title">Nông nghiệp bền vững</h3>
+                    <p class="focus-description">
+                        Bảo vệ thực vật an toàn sinh thái, duy trì sức khỏe đất 
+                        và áp dụng giải pháp nông nghiệp bền vững
+                    </p>
+                </div>
+
+                <div class="focus-card">
+                    <div class="focus-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M8 24C8 24 12 18 16 18C20 18 20 24 24 24C28 24 28 18 32 18C36 18 40 24 40 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="16" cy="10" r="3" fill="currentColor" opacity="0.2"/>
+                            <circle cx="16" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="32" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 36H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="focus-title">Chuyển giao kỹ thuật</h3>
+                    <p class="focus-description">
+                        Truyền thông, tập huấn và chuyển giao tiến bộ kỹ thuật 
+                        đến nông dân và cộng đồng sản xuất
+                    </p>
+                </div>
+
+                <div class="focus-card">
+                    <div class="focus-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M12 24C12 17.3726 17.3726 12 24 12C30.6274 12 36 17.3726 36 24C36 30.6274 30.6274 36 24 36C17.3726 36 12 30.6274 12 24Z" fill="currentColor" opacity="0.2"/>
+                            <circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 18V24L28 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M24 6V10M24 38V42M6 24H10M38 24H42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="focus-title">Quản lý dịch hại tổng hợp (IPM)</h3>
+                    <p class="focus-description">
+                        Áp dụng phương pháp quản lý dịch hại tổng hợp, 
+                        kết hợp nhiều biện pháp sinh học và kỹ thuật
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-label">Giới thiệu</span>
+                    <h2 class="section-title">Theo đuổi khoa học, đồng hành cùng nông dân</h2>
+                    <div class="about-text">
+                        <p>
+                            Chuyên viên tại <strong>Trung tâm Trồng trọt và Bảo vệ thực vật phía Nam</strong>, 
+                            tỉnh Đồng Tháp. Với bằng <strong>Thạc sĩ Trồng trọt</strong> từ Đại học Cần Thơ 
+                            và hơn 15 năm kinh nghiệm, tôi tập trung vào các lĩnh vực:
+                        </p>
+                        <ul class="about-list">
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 10L8 14L16 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span><strong>Giám sát và dự báo:</strong> Giám sát sâu bệnh hại trên cây trồng, dự báo diễn biến và cảnh báo kịp thời</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 10L8 14L16 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span><strong>Kiểm dịch thực vật:</strong> Phân tích nguy cơ dịch hại, giám định sinh vật gây hại và đảm bảo an toàn sinh học</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 10L8 14L16 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span><strong>Chuyển giao kỹ thuật:</strong> Phổ biến tiến bộ kỹ thuật và hoạt động khuyến nông cho nông dân</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 10L8 14L16 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span><strong>Nông nghiệp bền vững:</strong> Áp dụng giải pháp khoa học, duy trì sức khỏe đất và bảo vệ hệ sinh thái</span>
+                            </li>
+                        </ul>
+                        <blockquote style="margin-top: 2rem; padding-left: 1rem; border-left: 3px solid var(--primary); font-style: italic; color: var(--text-secondary);">
+                            "Khoa học chỉ thực sự có ý nghĩa khi gắn liền với thực tiễn sản xuất và mang lại lợi ích thiết thực cho người nông dân."
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <div class="visual-icon">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                                <circle cx="40" cy="40" r="35" fill="currentColor" opacity="0.1"/>
+                                <path d="M40 15C40 15 30 25 30 35C30 40.5228 34.4772 45 40 45C45.5228 45 50 40.5228 50 35C50 25 40 15 40 15Z" fill="currentColor" opacity="0.3"/>
+                                <path d="M40 15C40 15 30 25 30 35C30 40.5228 34.4772 45 40 45C45.5228 45 50 40.5228 50 35C50 25 40 15 40 15Z" stroke="currentColor" stroke-width="2.5"/>
+                                <path d="M40 45V62M40 62L33 55M40 62L47 55" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="40" cy="60" r="4" fill="currentColor"/>
+                                <path d="M25 60C25 60 20 55 20 50C20 47.2386 22.2386 45 25 45" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M55 60C55 60 60 55 60 50C60 47.2386 57.7614 45 55 45" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="visual-stats">
+                            <div class="visual-stat">
+                                <span class="visual-stat-number">15+</span>
+                                <span class="visual-stat-label">Năm kinh nghiệm</span>
+                            </div>
+                            <div class="visual-stat">
+                                <span class="visual-stat-number">10+</span>
+                                <span class="visual-stat-label">Dự án quốc tế</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Projects -->
+    <section id="research" class="section research">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Kinh nghiệm</span>
+                <h2 class="section-title">Công tác chuyên môn</h2>
+            </div>
+            
+            <div class="project-featured">
+                <div class="project-badge">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M8 2L9.5 6.5L14 8L9.5 9.5L8 14L6.5 9.5L2 8L6.5 6.5L8 2Z" fill="currentColor"/>
+                    </svg>
+                    Vị trí hiện tại
+                </div>
+                <h3 class="project-title">
+                    Chuyên viên - Trung tâm Trồng trọt và Bảo vệ thực vật phía Nam
+                </h3>
+                <p class="project-description">
+                    Tham gia giám sát sản xuất cây trồng, dự báo sâu bệnh hại và hỗ trợ kỹ thuật tại địa phương. 
+                    Trực tiếp tham gia các hoạt động giám sát và dự báo sâu bệnh hại, nhận diện sinh vật gây hại và 
+                    thiên địch, cũng như phổ biến các biện pháp kỹ thuật được khuyến cáo cho sản xuất nông nghiệp tại 
+                    khu vực đồng bằng sông Cửu Long.
+                </p>
+                <div class="project-meta">
+                    <div class="project-meta-item">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path d="M9 13C11.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M9 2V4M9 14V16M3 9H1M17 9H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                        <span><strong>Địa điểm:</strong> Ấp Mới, xã Long Định, tỉnh Đồng Tháp</span>
+                    </div>
+                    <div class="project-meta-item">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <circle cx="9" cy="9" r="5" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                        <span><strong>Lĩnh vực:</strong> Giám sát sâu bệnh, Dự báo dịch hại, Khuyến nông</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <rect x="8" y="12" width="24" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 18H32" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="24" r="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 8L20 12L24 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="research-card-title">Kiểm dịch thực vật</h3>
+                    <p class="research-card-desc">
+                        Từng công tác tại Trung tâm Kiểm dịch thực vật sau nhập khẩu II (TP.HCM), phân tích nguy cơ dịch hại và giám định sinh vật gây hại
+                    </p>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="36" r="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 16V18M20 30V32" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="research-card-title">Giám sát đồng ruộng</h3>
+                    <p class="research-card-desc">
+                        Thu thập và xử lý số liệu từ đồng ruộng, phân tích tình hình sâu bệnh và đưa ra các khuyến nghị kỹ thuật phù hợp
+                    </p>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <path d="M8 24C8 24 12 18 16 18C20 18 20 24 24 24C28 24 28 18 32 18C36 18 40 24 40 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="16" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="32" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 36H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="research-card-title">Tập huấn & Truyền thông</h3>
+                    <p class="research-card-desc">
+                        Tổ chức tập huấn kỹ thuật, truyền thông và chuyển giao tiến bộ khoa học kỹ thuật cho nông dân và cộng đồng
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section publications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Hoạt động</span>
+                <h2 class="section-title">Dự án & Chương trình quốc tế</h2>
+            </div>
+
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="publication-number">01</div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            Ecological Engineering in Rice Production: Demonstration, Dissemination and Application
+                        </h3>
+                        <p class="publication-authors">
+                            International Rice Research Institute (IRRI)
+                        </p>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Kỹ thuật sinh thái trong sản xuất lúa</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">02</div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            IPM & IPHM Training of the Trainers (TOT)
+                        </h3>
+                        <p class="publication-authors">
+                            Integrated Pest Management & Integrated Pest and Health Management
+                        </p>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Quản lý dịch hại tổng hợp</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">03</div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            APPPC Training Workshop on Fruit Fly Management
+                        </h3>
+                        <p class="publication-authors">
+                            Asia and Pacific Plant Protection Commission
+                        </p>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Quản lý ruồi trái cây</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">04</div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            LEGATO - Đánh giá rủi ro và cơ hội trong hệ thống lúa tưới tại châu Á
+                        </h3>
+                        <p class="publication-authors">
+                            Land-use intensity and Ecological Engineering - Assessment Tools for risks and Opportunities in irrigated rice-based production systems
+                        </p>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Dự án Châu Âu</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">05</div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            Ecological Management of Rodents, Weeds, Insects and Birds in Rice Agro-ecosystems
+                        </h3>
+                        <p class="publication-authors">
+                            IRRI, Philippines
+                        </p>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Quản lý sinh thái trong hệ sinh thái lúa</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">06</div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            Collaboration Network for Management of Migratory Rice Plant Hoppers and Associated Virus Diseases
+                        </h3>
+                        <p class="publication-authors">
+                            IPM TCP - Phase 3
+                        </p>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Quản lý rầy nâu di cư và virus bệnh</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">07</div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            Determination of Tetraniliprole Residues in Rice after Seed Treatments and Spray Applications
+                        </h3>
+                        <p class="publication-authors">
+                            Field trials in India, Thailand, and Vietnam
+                        </p>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Nghiên cứu dư lượng thuốc BVTV</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">Liên hệ</span>
+                    <h2 class="section-title">Kết nối và hợp tác</h2>
+                    <p class="contact-description">
+                        Nếu bạn quan tâm đến nghiên cứu của tôi, muốn hợp tác hoặc có câu hỏi, 
+                        vui lòng liên hệ qua các kênh dưới đây.
+                    </p>
+
+                    <div class="contact-methods">
+                        <a href="mailto:dieuxuanlesrppc@gmail.com" class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M3 8L10.89 13.26C11.5199 13.6583 12.4801 13.6583 13.11 13.26L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">Email</span>
+                                <span class="contact-method-value">dieuxuanlesrppc@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <a href="tel:0907525758" class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">Điện thoại</span>
+                                <span class="contact-method-value">0907 525 758</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 22C16 18 20 14.4183 20 10C20 5.58172 16.4183 2 12 2C7.58172 2 4 5.58172 4 10C4 14.4183 8 18 12 22Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">Địa chỉ</span>
+                                <span class="contact-method-value">Trung tâm Trồng trọt và BVTV phía Nam, Ấp Mới, xã Long Định, Đồng Tháp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Họ và tên</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Chủ đề</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Chọn chủ đề</option>
+                                <option value="collaboration">Hợp tác nghiên cứu</option>
+                                <option value="consultation">Tư vấn học thuật</option>
+                                <option value="opportunity">Cơ hội học tập</option>
+                                <option value="other">Khác</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Nội dung</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M18 2L9 11M18 2L12 18L9 11M18 2L2 8L9 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Gửi tin nhắn
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 4C16 4 12 8 12 12C12 14.2091 13.7909 16 16 16C18.2091 16 20 14.2091 20 12C20 8 16 4 16 4Z" fill="currentColor"/>
+                            <path d="M16 16V28M16 28L12 24M16 28L20 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="16" cy="26" r="2" fill="currentColor"/>
+                        </svg>
+                        <h1>Lê Thị Diệu Xuân</h1>
+                    </a>
+                    <p class="footer-description">
+                      Chuyên viên Trồng trọt và Bảo vệ thực vật - Theo đuổi khoa học, đồng hành cùng nông dân
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Liên kết</h4>
+                        <ul>
+                            <li><a href="#about">Giới thiệu</a></li>
+                            <li><a href="#research">Kinh nghiệm</a></li>
+                            <li><a href="#publications">Dự án</a></li>
+                            <li><a href="#contact">Liên hệ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Kết nối</h4>
+                        <ul>
+                            <li><a href="mailto:dieuxuanlesrppc@gmail.com">Email</a></li>
+                            <li><a href="tel:0907525758">Điện thoại</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lê Thị Diệu Xuân. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
